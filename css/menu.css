@@ -1,0 +1,14 @@
+body{
+    background-image: url(/TT-wb/resources/logos/back.png);
+    background-color: rgb(0,0,0);
+    background-blend-mode: lighten;
+    background-position: center top;
+}
+
+#on{
+    color: #F68C42 !important;
+}
+
+li{
+    font-size: 24px;
+}
