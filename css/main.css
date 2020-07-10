@@ -1,21 +1,12 @@
 body {
-  background-image: url(/TT-wb/resources/logos/back.png);
+  background-image: url(/resources/logos/back.png);
+  background-repeat: round;
   background-color: rgb(0, 0, 0);
-  background-blend-mode: lighten;
-  background-position: center top;
-}
-
-#on {
-  color: #f68c42 !important;
+  background-attachment: fixed;
 }
 
 li {
   font-size: 24px;
-}
-
-#car{
-  margin: auto;
-  max-width: 693px;
 }
 
 .carousel-item{
@@ -27,6 +18,87 @@ li {
   height: 100%;
   object-fit: inherit;
   border-radius: 35px;
+}
+
+#on {
+  color: #f68c42 !important;
+}
+
+#car{
+  margin: auto;
+  max-width: 693px;
+}
+
+#welcome{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+
+
+#welcome-button{
+  width: 315px;
+  height: 100px;  
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 50px;
+  border: 6px solid transparent;
+  transition-duration: 0.25s;
+}
+
+#welcome-button:hover{
+  border: 6px solid #F68C42;
+}
+
+#main-text{
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: justify;
+}
+
+#main-welcome{
+  padding-top: 9%;
+}
+
+#main-photo{
+  margin: auto;
+  height: 360px;
+  max-width: 540px;
+}
+
+#main-photo img{
+  height: 100%;
+  width: 100%;
+  border-radius: 35px;
+}
+
+#social{
+  padding-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#links{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: 4px solid transparent;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition-duration: .25s;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#links:hover{
+  border: 4px solid #F68C42
 }
 
 @media (max-width: 1199.98px) {
@@ -43,6 +115,10 @@ li {
     height: 100%;
     object-fit: inherit;
     border-radius: 35px;
+  }
+
+  #main-welcome{
+    padding-top: 10%;
   }
 
 }
@@ -63,6 +139,10 @@ li {
     border-radius: 35px;
   }
 
+  #main-welcome{
+    padding-top: 10%;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -80,7 +160,56 @@ li {
     object-fit: inherit;
     border-radius: 35px;
   }
+  #welcome{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
 
+  #welcome-button{
+    width: 250px;
+    height: 75px;
+    font-size: 30px;
+  }
+
+  #main-welcome{
+    padding-top: 25%;
+  }
+
+  #main-text{
+    font-size: 20px;
+  }
+
+  #main-photo{
+    width: 100%;
+    max-height: 350px;
+    padding: 0;
+  }
+
+  #main-photo img{
+    border-radius: 35px;
+  }
+  
+  #links{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: .25s;
+    font-size: 30px;
+  }
+  
+  #links:hover{
+    border: 4px solid #F68C42
+  }
+
+  #social{
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -88,10 +217,12 @@ li {
   #car{
     max-width: 100%;
   }
+
   .carousel-item{
     /*maxwidth: 100%; /*width you want*/
     height: 300px; /*height you want*/
   }
+
   .carousel-item img{
     width: 100%;
     height: 100%;
@@ -99,6 +230,35 @@ li {
     border-radius: 35px;
   }
 
+  #main-photo{
+    width: 100%;
+    max-height: 300px;
+    padding: 0;
+  }
+
+  #main-photo img{
+    border-radius: 35px;
+  }
+
 }
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 50px rgba(60,60,60,1); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+ -webkit-box-shadow: inset 0 0 50px rgba(60,60,60,1);
+}
+
 
 
