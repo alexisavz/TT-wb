@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/resources/logos/logocircle.png">
     <title>ToshiTiger</title>
     <link
       rel="stylesheet"
-      href="/TT-wb/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/TT-wb/css/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/TT-wb/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="/TT-wb/html/main.html">
+      <a class="navbar-brand" href="/html/main.html">
         <img
-          src="/TT-wb/resources/logos/logocircle.png"
+          src="/resources/logos/logocircle.png"
           height="40"
           width="40"
           alt=""
@@ -39,20 +41,20 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto text-right">
           <li class="nav-item">
-            <a id="on" class="nav-link" href="/TT-wb/html/main.html"
+            <a id="on" class="nav-link" href="/html/main.html"
               >Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/TT-wb/html/menu.html">Menu</a>
+            <a class="nav-link" href="/html/menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/TT-wb/html/especial.html"
+            <a class="nav-link" href="/html/especial.html"
               >Especiales</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/TT-wb/html/sucursal.html"
+            <a class="nav-link" href="/html/sucursal.html"
               >Sucursal</a
             >
           </li>
@@ -63,7 +65,7 @@
 
 
     <!--Carousel Start-->
-      <div id="car" class="py-5">
+      <div id="car" class="pt-5">
         <div
           id="carouselExampleFade"
           class="carousel slide carousel-fade"
@@ -72,21 +74,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active align-self-center">
               <img
-                src="/TT-wb/resources/images/background.jpg"
+                src="/resources/images/background.jpg"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item align-self-center">
               <img
-                src="/TT-wb/resources/images/bao-wide.jpg"
+                src="/resources/images/bao-wide.jpg"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item align-self-center">
               <img
-                src="/TT-wb/resources/images/back3.jpg"
+                src="/resources/images/back3.jpg"
                 class="d-block w-100"
                 alt="..."
               />
@@ -113,6 +115,44 @@
         </div>
       </div>
       <!--Carousel Start-->
-
+      
+      <!--Welcome card Start-->
+      <div class="container">
+          <div class="row">
+              <div id="welcome" class="col-12  d-flex justify-content-center">
+                <p>WELCOME TO OUR COCINA URBANA DE ORIENTE</p>
+              </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <a href="/html/sucursal.html"><button id="welcome-button"> Visítanos</button></a>
+          </div>
+      </div>
+      <div class="container-fluid">
+        <div id="main-welcome" class="row">
+          <div id="main-text" class="col-lg-6 d-flex justify-content-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, adipisci. Asperiores laudantium similique eligendi, porro ratione cum eaque odio modi, ipsa, veniam ea. Laborum ipsum a distinctio debitis nihil odio.
+          </p>
+          </div>
+          <div id="main-photo" class="col-lg-6 d-flex jutify-content-center">
+            <img src="/resources/images/baos-line.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div id="social" class="col-12 d-flex justify-content-center">
+                <p>Siguenos</p>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <button id="links" onclick="window.open('https://www.instagram.com/toshi_tiger/')">
+                <i class="fa fa-instagram fa-lg"></i>
+                </button>
+                <button id="links" onclick="window.open('https://www.facebook.com/toshitigermty/')">
+                  <i class="fa fa-facebook fa-lg"></i>
+                </button>
+              </div>
+          </div>
+      </div>
+      <!--Welcome card End-->
   </body>
 </html>
