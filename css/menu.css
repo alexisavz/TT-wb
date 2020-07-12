@@ -5,10 +5,25 @@ body{
     background-attachment: fixed;
 }
 
+li{
+    font-size: 24px;
+}
+
 #on{
     color: #F68C42 !important;
 }
 
-li{
-    font-size: 24px;
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+#icon{
+    color: #F68C42;
+    margin: auto;
+}
+
+#icon:hover{
+    cursor: pointer;
 }
