@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/resources/logos/logocircle.png">
+    <title>ToshiTiger</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/html/main.html">
+        <img
+          src="/resources/logos/logocircle.png"
+          height="40"
+          width="40"
+          alt=""
+        />
+      </a>
+      <button
+        id="burguer"
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto text-right">
+          <li class="nav-item">
+            <a id="on" class="nav-link" href="/html/main.html"
+              >Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/especial.html"
+              >Especiales</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html/sucursal.html"
+              >Sucursal</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NavBar End-->
+
+
+    <!--Carousel Start-->
+      <div id="car" class="pt-5">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active align-self-center">
+              <img
+                src="/resources/images/background.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item align-self-center">
+              <img
+                src="/resources/images/bao-wide.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item align-self-center">
+              <img
+                src="/resources/images/back3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!--Carousel Start-->
+      
+      <!--Welcome card Start-->
+      <div class="container">
+          <div class="row">
+              <div id="welcome" class="col-12  d-flex justify-content-center">
+                <p>Welcome to our cocina urbana de oriente</p>
+              </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <a href="/html/sucursal.html"><button id="welcome-button"> Visítanos</button></a>
+          </div>
+      </div>
+      <div class="container-fluid">
+        <div id="main-welcome" class="row">
+          <div id="main-text" class="col-lg-6 d-flex justify-content-center">
+            <p>
+              Bienvenido a ToshiTiger la mejor experiencia de cocina urbana de oriente que encontrarás en todo Monterrey. ¿Estás buscando algo delicioso? Atrévete a probar nuestros deliciosos platillos. Ven y conoce el sabor del tigre. 🐯
+            </p>
+          </div>
+          <div id="main-photo" class="col-lg-6 d-flex jutify-content-center">
+            <img src="/resources/images/baos-line.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!--Welcome card end-->
+      <!--End card Start-->
+      <div class="container-fluid">
+          <div class="row">
+              <div id="social" class="col-12 d-flex justify-content-center">
+                <p>Síguenos</p>
+              </div>
+              <div class="col-12 d-flex justify-content-center">
+                <button id="links" onclick="window.open('https://www.instagram.com/toshi_tiger/')">
+                <i class="fa fa-instagram fa-lg"></i>
+                </button>
+                <button id="links" onclick="window.open('https://www.facebook.com/toshitigermty/')">
+                  <i class="fa fa-facebook fa-lg"></i>
+                </button>
+              </div>
+          </div>
+      </div>
+      <!--End card End-->
+  </body>
+</html>
