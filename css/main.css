@@ -239,6 +239,18 @@ li {
   #main-photo img{
     border-radius: 35px;
   }
+  #social{
+    font-size: 15px;
+  }
+  #links{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 
 }
 

@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/resources/logos/logocircle.png">
+    <link rel="icon" href="/resources/logos/logocircle.png" />
     <title>ToshiTiger</title>
     <link
       rel="stylesheet"
       href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/sucursal.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -45,20 +46,88 @@
             <a class="nav-link" href="/html/menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/html/especial.html"
-              >Especiales</a
-            >
+            <a class="nav-link" href="/html/especial.html">Especiales</a>
           </li>
           <li class="nav-item">
-            <a
-              id="on"
-              class="nav-link"
-              href="/html/sucursal.html"
-              >Sucursal</a
-            >
+            <a id="on" class="nav-link" href="/html/sucursal.html">Sucursal</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!--NavBar end-->
+
+    <!--Map Start-->
+    <div class="container">
+      <div class="row">
+        <div id="map-text" class="col-12 d-flex justify-content-center py-4">
+          <p>
+            Vísitanos en nuestra sucursal!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="map-div" class="col-12 d-flex justify-content-center py-3">
+          <iframe
+            id="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14386.688219508365!2d-100.2884424!3d25.6490076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x98870919fb4d7078!2sToshi%20Tiger!5e0!3m2!1ses!2smx!4v1595238312100!5m2!1ses!2smx"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!--Map end-->
+
+    <!--Contact info Start-->
+    <div class="container">
+        <div class="row">
+            <div id="horario" class="col-12 d-flex justify-content-center py-3">
+              <p>
+                Horario: <br>
+                Lunes a Domingo de 12:00am a 10:00pm
+              </p>
+            </div>
+        </div>
+    </div>
+    <div id="end-card" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 d-flex justify-content-center">
+              <p>
+              Tenemos servicio a domicilio <br>
+              81 2531 4858
+            </p>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center">
+              <p>
+                También puedes pedir por WhatsApp <br>
+                81 3123 9715
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <p>
+                    Síguenos
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                  <button id="links" onclick="window.open('https://www.instagram.com/toshi_tiger/')">
+                    <i class="fa fa-instagram fa-lg"></i>
+                    </button>
+                    <button id="links" onclick="window.open('https://www.facebook.com/toshitigermty/')">
+                      <i class="fa fa-facebook fa-lg"></i>
+                    </button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>

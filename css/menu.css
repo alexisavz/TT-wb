@@ -22,6 +22,8 @@ li{
 #icon{
     color: #F68C42;
     margin: auto;
+    margin-left: 75px;
+    margin-right: 75px;
     width: 50px;
     height: 50px;
 }
@@ -31,7 +33,6 @@ li{
 }
 
 #menu-card{
-    margin-top: 5%;
     background-color: #111111;
     color: white;
     text-align: center;
@@ -55,12 +56,28 @@ li{
     font-size: 26px;
 }
 
-@media (max-width: 1199.98px) {}
+#legend{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+@media (max-width: 1199.98px) {
+    #menu-card{
+        margin-bottom: 50px;
+    }
+    #icon{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
 
 @media (max-width: 991.98px) {
     #icon{
         height: 45px;
         width: 45px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #menu-card{
@@ -71,6 +88,7 @@ li{
     #inst{
         font-size: 35px;
     }
+
 }
 
 @media (max-width: 767.98px) {
@@ -79,8 +97,8 @@ li{
     }
 
     #menu-card{
-        height: 600px;
-        width: 600px;
+        height: 580px;
+        width: 500px;
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 50px;
@@ -89,6 +107,8 @@ li{
     #icon{
         height: 50px;
         width: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     #step{
@@ -102,6 +122,7 @@ li{
     #opts{
         font-size: 25px;
     }
+
 }
 
 @media (max-width: 575.98px) {
@@ -118,6 +139,8 @@ li{
     #icon{
         height: 35px;
         width: 35px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     #step{
