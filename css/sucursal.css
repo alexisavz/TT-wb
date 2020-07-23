@@ -40,20 +40,30 @@ li {
   text-align: center;
 }
 
-#links {
-  height: 50px;
-  width: 50px;
+#links{
+  height: 60px;
+  width: 60px;
   border-radius: 50px;
   background-color: #f2f2f2;
   border: 4px solid transparent;
   margin-left: 25px;
   margin-right: 25px;
-  transition-duration: 0.25s;
-  font-size: 20px;
+  transition-duration: .25s;
+  margin-bottom: 50px;
+  position: relative;
 }
 
-#links:hover {
-  border: 4px solid #f68c42;
+#links:hover{
+  border: 4px solid #F68C42
+}
+
+#social-icon{
+  font-size: 30px;
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1199.98px) {
@@ -68,6 +78,11 @@ li {
     }
     #horario {
       font-size: 25px;
+    }
+    #map {
+      width: 550px;
+      height: 310px;
+      border-radius: 50px;
     }
     #end-card {
       font-size: 16px;
@@ -85,6 +100,9 @@ li {
       font-size: 18px;
       margin-bottom: 20px;
     }
+    #social-icon{
+      font-size: 24px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -93,6 +111,11 @@ li {
   }
   #horario {
     font-size: 25px;
+  }
+  #map {
+    width: 350px;
+    height: 197px;
+    border-radius: 50px;
   }
   #end-card {
     font-size: 16px;
@@ -109,5 +132,8 @@ li {
     margin-right: 10px;
     font-size: 18px;
     margin-bottom: 20px;
+  }
+  #social-icon{
+    font-size: 24px;
   }
 }
