@@ -13,8 +13,8 @@ function oneUp() {
   if(control == 3){
       control = 0;
   }
-  changeTitle.innerHTML = titleText[control];
   document.getElementById("image").src = imageDirect[control];
+  changeTitle.innerHTML = titleText[control];
   changeText.innerHTML = cardText[control];
 }
 
@@ -26,7 +26,7 @@ function oneDown() {
     if(control == -1){
         control = 2;
     }
-    changeTitle.innerHTML = titleText[control];
     document.getElementById("image").src = imageDirect[control];
+    changeTitle.innerHTML = titleText[control];
     changeText.innerHTML = cardText[control];
   }
