@@ -16,7 +16,7 @@ li {
 #title {
   color: white;
   font-size: 45px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lemonada', cursive;
 }
 
 #main-div{
@@ -28,7 +28,7 @@ li {
   width: 780px;
   height: 680px;
   background-color: #111111;
-  border-radius: 60px;
+  border-radius: 35px;
   margin: auto;
   margin-bottom: 50px;
   margin-left: 0px;
@@ -38,7 +38,7 @@ li {
 #card-title {
   font-size: 40px;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lemonada', cursive;
 }
 
 #image {
@@ -51,10 +51,10 @@ li {
 }
 
 #card-text {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 25px;
+  font-family: 'Lemonada', cursive;
+  font-size: 24px;
   color: white;
-  text-align: justify;
+  text-align: center;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -70,7 +70,7 @@ li {
 
 #social {
   padding-top: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lemonada', cursive;
   font-size: 20px;
   color: white;
 }
@@ -169,7 +169,7 @@ li {
     height: 300px;
   }
   #card-text{
-    font-size: 23px;
+    font-size: 22.5px;
   }
   #icon{
     margin: auto;
@@ -215,7 +215,7 @@ li {
     height: 300px;
   }
   #card-text{
-    font-size: 23px;
+    font-size: 20px;
   }
   #icon{
     margin: auto;
@@ -238,14 +238,14 @@ li {
     max-height: 580px;
   }
   #card-title{
-    font-size: 30px;
+    font-size: 29.5px;
   }
   #image{
     width: 215px;
     height: 215px;
   }
   #card-text{
-    font-size: 18px;
+    font-size: 17px;
   }
   #icon{
     margin: auto;
@@ -282,7 +282,7 @@ li {
     max-height: 550px;
   }
   #card-title{
-    font-size: 25px;
+    font-size: 24px;
   }
   #image{
     width: 200px;
@@ -298,9 +298,13 @@ li {
   #card{
     max-width: 240px;
     max-height: 550px;
+    border-radius: 35px;
+  }
+  #card-title{
+    font-size: 22px;
   }
   #card-text{
-    font-size: 16px;
+    font-size: 15px;
   }
 
 }
